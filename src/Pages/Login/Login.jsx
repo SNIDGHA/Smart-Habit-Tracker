@@ -21,9 +21,9 @@ const Login = () => {
         >
           <Typewriter
             options={{
-              strings: ["Login to Your Account"],
+              strings: ["Welcome!","Login to Your Account"],
               autoStart: true,
-              loop: false,
+              loop: true,
               delay: 70,
               deleteSpeed: 50,
             }}
