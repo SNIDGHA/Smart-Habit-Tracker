@@ -1,3 +1,5 @@
+import AboutUsSection from "../../Components/Landing/AboutUsSection"
+import ContactUs from "../../Components/Landing/ContactUs"
 import FeaturesSection from "../../Components/Landing/FeaturesSection"
 import HeroSection from "../../Components/Landing/HeroSection"
 import StatsSection from "../../Components/Landing/StatsSection"
@@ -10,8 +12,9 @@ const LandingPage = () => {
       <HeroSection />
       <StatsSection/>
       <FeaturesSection/>
-      {/* <AboutUs/>
-      <Features/>
+      <AboutUsSection/>
+      <ContactUs/>
+      {/*
       <Technology/>
       <Testimonials/>
       <FAQSection/>

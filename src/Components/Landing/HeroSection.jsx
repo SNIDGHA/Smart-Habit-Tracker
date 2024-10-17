@@ -1,5 +1,7 @@
 import Typewriter from 'typewriter-effect';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+
 
 const HeroSection = () => {
   return (
@@ -42,9 +44,11 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 1 }}
         >
-          <button className="px-8 py-4 bg-yellow-400 text-black rounded-full text-lg font-semibold shadow-lg hover:bg-yellow-300 transition duration-300">
-            Get Started
-          </button>
+          <Link to="/signup">
+            <button className="px-8 py-4 bg-yellow-400 text-black rounded-full text-lg font-semibold shadow-lg hover:bg-yellow-300 transition duration-300">
+              Get Started
+            </button>
+          </Link>
           <button className="px-8 py-4 bg-transparent border border-white rounded-full text-lg font-semibold hover:bg-white hover:text-black transition duration-300">
             Learn More
           </button>
